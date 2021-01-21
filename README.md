@@ -10,5 +10,5 @@ Checklist :
 - [x] ~~Delete items from db through browser~~
 - [x] ~~Create custom lists through Express.js route~~
 - [x] ~~Add items to custom lists~~
-- [] Deleteing items from custom lists
+- [x] ~~Deleteing items from custom lists~~
 - [] Host DoMe on heroku
