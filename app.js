@@ -63,7 +63,7 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
 
     let itemName = req.body.listItem
-    const listName = re.body.list;
+    const listName = req.body.list;
 
     const item = new Item({
         name: itemName
