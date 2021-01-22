@@ -1,6 +1,8 @@
 # ToDoList-Mongoose
 
-Didn't you ever want to keep track of your daily To Do's or keep some to do's for specific parts of your life? Well look no further. Here's DoMe!!
+Didn't you ever want to keep track of your daily To Do's or keep some to do's for specific parts of your life? Well look no further. Here's DoMe!! 
+
+https://damp-springs-37839.herokuapp.com/
 
 Checklist : 
 
@@ -11,4 +13,4 @@ Checklist :
 - [x] ~~Create custom lists through Express.js route~~
 - [x] ~~Add items to custom lists~~
 - [x] ~~Deleteing items from custom lists~~
-- [] Host DoMe on heroku
+- [x] ~~Host DoMe on heroku~~
