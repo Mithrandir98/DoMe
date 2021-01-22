@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
+mongoose.connect("mongodb+srv://admin-ruthwik:test123@cluster1.e8gjh.mongodb.net/todolistDB", {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 
 const itemSchema = {
     name: String
@@ -135,6 +135,11 @@ app.post("/work", (req, res) => {
     res.redirect("/work");
 });
 
-app.listen(3000, () => {
-    console.log("Server up at port 3000")
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, () => {
+    console.log("Server up")
 });
